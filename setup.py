@@ -1,7 +1,7 @@
 from distutils.core import setup
 import os
 
-long_description = """ newt-python is a thin pythonic wrapper arround the newt NERSC api """
+long_description = """ newt-python is a thin pythonic wrapper arround the NEWT NERSC api """
 
 packages = []
 for dirname, diranmes, filenames in os.walk('newt'):
